@@ -1,0 +1,53 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 1rem;
+    border: 2px solid red;
+    min-height: 500px;
+    width: 50%;
+    position: relative;
+    
+}
+.square{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 10px;
+}
+
+.orange{
+    background-color: orange ;
+}
+.blu{
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    /* con left definiamo il lato che si sposta (che spingiamo) */
+}
+.green{
+    background-color: green;
+    position: relative;
+    
+}
+.red{
+    background-color: red;
+}
+.yel{
+    background-color: yellow;
+    position: fixed;
+}
+
+/* position absolute, l'elemento viene tolto dal suo flusso e lui guarda il suo primo contenitore che non ha position static (di default) */
+
+.absolute{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* position fixed mantiene l'elemento nella sua posizione anche se scrolliamo la pagina */
